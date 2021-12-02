@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/app")
 def hello():
     return "bro, this is a reliable system. lol."
 
